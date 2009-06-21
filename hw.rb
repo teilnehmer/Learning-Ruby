@@ -20,3 +20,17 @@ puts number.to_s + string
 puts "Number Magic: "
 puts number + string.to_i
 
+puts hr
+# ================================
+puts "Please type a number to be multiplied by 10";
+input = gets.chomp.to_i
+if input > 10
+  puts 'Whoa, that\'s a big number!'
+else
+  puts 'Here we go:'
+end
+puts input * 10
+
+
+puts "\nThank you, goodbye!"
+
